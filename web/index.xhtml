@@ -10,8 +10,8 @@
         <h:form title="envia_sms">
             <h:outputText value="Número: "></h:outputText>
             <h:inputText title="numero" value="#{sms.numero}"></h:inputText><br/>
-            <h:outputText title="sms" value="SMS: " value="#{sms.mensagem}"></h:outputText>
-            <h:inputText title="sms" ></h:inputText><br/>
+            <h:outputText title="sms" value="SMS: "></h:outputText>
+            <h:inputText title="sms" value="#{sms.mensagem}"></h:inputText><br/>
             <h:commandButton title="enviar" value="Enviar" action="#{envia.enviaClickatell(sms)}"></h:commandButton>          
         </h:form>
     </h:body>
